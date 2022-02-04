@@ -1,4 +1,3 @@
-import ContainerBtns from '../containerButtons/ContainerBtns';
 import './detalles.scss';
 
 function Detalles() {
@@ -14,10 +13,8 @@ function Detalles() {
             </h2>
 
             <h3 className="detalles_parrafo">Entérate como participar, tendrás toda una semana para lograrlo. 
-                <span>¡baz con todo!</span>
+                <span> ¡baz con todo!</span>
             </h3>
-
-            <ContainerBtns />
 
         </div>
     );

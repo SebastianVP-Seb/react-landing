@@ -1,0 +1,36 @@
+@mixin lista {
+    color: white;
+    font-size: 1.5rem;
+    margin: auto 0;
+    padding: 3rem;
+    
+    &_item {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 5rem;
+
+        &:not(:last-child) {
+            margin-bottom: 1rem;
+        }
+
+        & span {
+            font-weight: bold;
+            font-size: 1.6rem;
+            margin: 0 6rem;
+
+            
+            @media screen and (max-width: 600px) {
+                margin: 0% 2rem;
+            }
+
+            @media screen and (max-width: 450px) {
+                margin: 0;
+            }
+        }
+    }
+
+    
+    @media screen and (max-width: 600px) {
+        padding: 1rem;
+    }
+}

@@ -1,0 +1,59 @@
+@import '../../../sass/mixin';
+@import '../../../sass/variables';
+
+.listaG {
+    background-color: white;
+    font-size: 1.5rem;
+
+    &_item {
+        
+        &:not(:last-child) {
+            margin-bottom: 2rem;
+
+            @media screen and (max-width: 650px) {
+                margin-bottom: .5rem;
+            }
+        }
+        
+        
+        &-uno {
+            display: flex;
+            margin: 0 8rem;
+            align-items: center;
+
+            @media screen and (max-width: 650px) {
+                margin: 0% 3rem;
+            }
+
+            & span {
+                color: white;
+                min-height: 2.6rem;
+                min-width: 2.6rem;
+                border-radius: 50%;
+                justify-content: center;
+                display: flex;
+                align-items: center;
+                margin-right: 1rem;
+                font-weight: bold;
+            }
+        }
+
+        &-dos {
+            text-align: center;
+            font-size: 2.4rem;
+            font-weight: 600;
+
+            &:not(:first-child) {
+                padding: 1.5rem 0;
+            }
+        }
+    }
+}
+
+.fverde {
+    color: $verde;
+}
+
+.frosa {
+    color: $rosa;
+}

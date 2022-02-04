@@ -2,33 +2,38 @@
     cursor: pointer;
     padding: 1rem 2rem;
     border-radius: 3rem;
-    width: 18rem;
-    font-size: 1.7rem;
+    width: 19rem;
+    font-size: 1.6rem;
     color: #ccc;
     background-color: white;
     transition: all .2s ease-in-out;
-    border: 1.5px solid transparent;
+    border: 3.5px solid transparent;
+    margin-bottom: 3rem;
 
     &:hover {
         background-color: whitesmoke;
         color: black;
     }
-
-    // &:visited,&:active {
-    //     background-color: black;
-    //     color: white;
-    //     border: 1.5px solid pink;
-    // }
 }
 
 .isActive {
     background-color: black;
     color: white;
-    border: 1.5px solid pink;
+    border: 3.5px solid rgb(173, 173, 173);
 
     &:hover {
-        background-color: rgb(15, 15, 15);
+        background-color: rgb(66, 66, 66);
         color: white;
+    }
+}
 
+.container_btns {
+    display: flex;
+    justify-content: space-around;
+
+    @media screen and (max-width: 370px) {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 3rem;
     }
 }

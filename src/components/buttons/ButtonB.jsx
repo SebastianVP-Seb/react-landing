@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import Ganar from '../ganar/Ganar';
+import ListaG from '../ganar/listaG/ListaG';
+import Requisistos from '../requisitos/Requisistos';
 import './buttonB.scss';
 
 function ButtonB() {
@@ -26,8 +29,13 @@ function ButtonB() {
 
     return (
         <>
-            <button onClick={handleClick1} className={`buttonB ${state1 ? 'isActive' : ''}`}>Personas</button>
-            <button onClick={handleClick2} className={`buttonB ${state2 ? 'isActive' : ''}`}>Negocios</button>
+            <div className="container_btns">
+                <button onClick={handleClick1} className={`buttonB ${state1 ? 'isActive' : ''}`}>Personas</button>
+                <button onClick={handleClick2} className={`buttonB ${state2 ? 'isActive' : ''}`}>Negocios</button>
+            </div>
+            <Ganar estado1={state1} />
+            <ListaG estado1={state1} />
+            <Requisistos estado1={state1} />
         </>
     );
 };

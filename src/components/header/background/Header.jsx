@@ -1,4 +1,3 @@
-import React from 'react';
 import Detalles from '../detalles/Detalles';
 import './header.scss';
 
