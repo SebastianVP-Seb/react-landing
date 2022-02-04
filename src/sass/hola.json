@@ -1,0 +1,15 @@
+{
+    "people": {
+        "first": "Pagos en diferentes negocios baz",
+        "second":  "Recarga mínima: $150",
+        "third": "Pago mínimo por transacción: $50",
+        "fourth": "Limitado a un regalo por semana",
+        "five": "No tener un negocio baz afiliado a tu cuenta"
+    },
+    "business": {
+        "first": "En caso de que un cliente pague más de una vez en la misma semana, solo se contará una transacción de ese cliente para el desafío",
+        "second":  "Cobro mínimo por transacción: $50",
+        "third": "Limitado a un regalo por semana",
+        "fourth": "Participan negocios afiliados en baz súperapp"
+    }
+}
