@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/react-landing/static/css/main.8020fecb.css",
+    "main.css": "/react-landing/static/css/main.ffa5e38a.css",
     "main.js": "/react-landing/static/js/main.86ff8650.js",
     "index.html": "/react-landing/index.html",
-    "main.8020fecb.css.map": "/react-landing/static/css/main.8020fecb.css.map",
+    "main.ffa5e38a.css.map": "/react-landing/static/css/main.ffa5e38a.css.map",
     "main.86ff8650.js.map": "/react-landing/static/js/main.86ff8650.js.map"
   },
   "entrypoints": [
-    "static/css/main.8020fecb.css",
+    "static/css/main.ffa5e38a.css",
     "static/js/main.86ff8650.js"
   ]
 }
