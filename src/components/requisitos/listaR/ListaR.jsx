@@ -1,5 +1,5 @@
 import { PEOPLE, BUSINESS } from '../../../data/data';
-import './listaR.scss'
+import './listaR.scss';
 
 function ListaR({estado1}) {
 
