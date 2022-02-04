@@ -31,9 +31,9 @@
     display: flex;
     justify-content: space-around;
 
-    @media screen and (max-width: 370px) {
+    @media screen and (max-width: 350px) {
         flex-direction: column;
         align-items: center;
-        margin-top: 3rem;
+        margin-top: 1rem;
     }
 }

@@ -22,14 +22,13 @@
             @media screen and (max-width: 600px) {
                 margin: 0% 2rem;
             }
+        }
 
-            @media screen and (max-width: 450px) {
-                margin: 0;
-            }
+        @media screen and (max-width: 450px) {
+            margin-left: 2rem;
         }
     }
 
-    
     @media screen and (max-width: 600px) {
         padding: 1rem;
     }
